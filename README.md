@@ -86,9 +86,9 @@ Clone this repository to your desired folder:
 
 👤 **Abdel-Khafid**
 
-- GitHub: [@githubhandle](https://github.com/adeola003)
-- Twitter: [@twitterhandle](https://twitter.com/khadaf6)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdel-khafid-salaou-a18396161/)
+<a href="https://github.com/adeola003">- GitHub: [@githubhandle]</a>
+<a href="https://twitter.com/khadaf6">- Twitter: [@twitterhandle]</a>
+<a href="https://www.linkedin.com/in/abdel-khafid-salaou-a18396161/">- LinkedIn: [LinkedIn]</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -138,8 +138,4 @@ All my
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This project is <a href="https://github.com/adeola003/Microverse_portfolio/blob/3ca5489580c13cb372bd064c1f13825c2d17ba40/LICENSE.md">MIT licensed</a>.

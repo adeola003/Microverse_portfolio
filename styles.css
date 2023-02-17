@@ -1,14 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.my-lo {
-  border-radius: 50px;
-  width: 20%;
-  transform: rotateX('angle');
-}
 
 .overlay {
   position: absolute;
@@ -37,14 +26,6 @@ body {
 
 header {
   background-color: #fff;
-}
-
-.nav-container {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.5rem;
 }
 
 section {
@@ -143,69 +124,77 @@ li {
   line-height: 52px;
   color: #172b4d;
 }
-
-.navnav-link {
-  transform: 0.7s ease;
-}
-
-.navnav-item li {
-  margin: 10px 0;
-}
-
-.navnav-menu ul {
-  height: 69;
-}
-
-.navnav-menu {
-  display: none;
-}
-
-.desk-menu {
-  display: none;
-}
-
-.navnav-menu.active {
-  display: block;
-  position: fixed;
-  left: 0;
-  top: -1%;
-  flex-direction: column;
-  background: #6070e0;
+/* navigation bar styling */
+.nav-container {
   width: 100%;
-  transition: 0.3s;
-  height: 100%;
-  padding: 50px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin: 0;
-  align-self: auto;
-  padding-top: 10%;
-  line-height: 65px;
-  text-align: start;
-  mix-blend-mode: multiply;
-  backdrop-filter: blur(8px);
+  padding: 1.5rem;
 }
 
-@media screen and (min-width: 768px) {
-  .desk-menu {
+.my-lo {
+  border-radius: 50px;
+  width: 5%;
+  transform: rotateX('angle');
+}
+
+.topnav {
+  display: flex;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+.topnav a {
+  color: black;
+  text-align: justify;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  align-items: baseline;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.hamburger-lines {
+  display: block;
+  height: 26px;
+  width: 32px;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hamburger-lines .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #0e2431;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .nav-container {
     display: flex;
     justify-content: space-between;
     gap: 0;
   }
 
-  .desktop-tools {
+  .topnav {
     display: inline;
   }
 
-  .navnav-menu {
-    display: none;
-  }
-
   .navnav-item {
-    margin: 16px 0;
-  }
-
-  .navnav-menu.active {
-    left: -100%;
     margin: 16px 0;
   }
 
