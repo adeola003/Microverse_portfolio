@@ -138,4 +138,4 @@ All my
 
 ## 📝 License <a name="license"></a>
 
-This project is <a href="https://github.com/adeola003/Microverse_portfolio/blob/3ca5489580c13cb372bd064c1f13825c2d17ba40/LICENSE.md">MIT</a> licensed.
+This project is <a href="./LICENSE.md">MIT</a> licensed.
