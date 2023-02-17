@@ -138,4 +138,6 @@ All my
 
 ## 📝 License <a name="license"></a>
 
-This project is <a href="./LICENSE.md">MIT</a> licensed.
+This project is [MIT](./LICENSE.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
