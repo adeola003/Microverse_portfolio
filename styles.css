@@ -1,0 +1,222 @@
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #6070e0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0.1s;
+  transition-property: all;
+}
+
+body {
+  max-width: 100%;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: #e5e5e5;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+header {
+  background-color: #fff;
+}
+
+section {
+  padding: 5rem 1.25rem 6rem;
+  background-color: #fff;
+}
+
+.major-container {
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 80px;
+  background-image: url("./assets/icons/hero_bg\ \(1\).png");
+  background-repeat: no-repeat;
+  background-position: inherit;
+  background-size: 100% 100%;
+  padding-top: 70px;
+  justify-content: center;
+}
+
+.section-head {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 80%;
+  padding: 0.6em 0;
+}
+
+#about {
+  border-top-right-radius: 80px;
+}
+
+.section-head p {
+  font-family: “Poppins”, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.section-head h1,
+h2 {
+  font-family: “Poppins”, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  font-style: normal;
+}
+
+.connect {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.connect p {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  font-family: “Poppins”, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #142cff;
+  height: 24px;
+  flex: none;
+}
+
+li {
+  list-style: none;
+  text-decoration: #dfe1e6;
+}
+
+.list-items {
+  display: flex;
+  gap: 10px;
+}
+
+.list-items img {
+  height: 15px;
+  width: 15px;
+}
+
+.list-items li {
+  list-style: none;
+}
+
+.header-text {
+  max-width: 50%;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+/* navigation bar styling */
+.nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.my-lo {
+  border-radius: 50px;
+  width: 5%;
+  transform: rotateX('angle');
+}
+
+.topnav {
+  display: flex;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+.topnav a {
+  color: black;
+  text-align: justify;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  align-items: baseline;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.hamburger-lines {
+  height: 26px;
+  width: 32px;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hamburger-lines .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #0e2431;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .topnav {
+    display: inline;
+  }
+
+  .navnav-item {
+    margin: 16px 0;
+  }
+
+  .major-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./assets/icons/hero_bg\ \(1\).png");
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    padding: 50px 50px;
+  }
+
+  .minor-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  .section-head h1 {
+    width: 40%;
+  }
+
+  .section-head p {
+    width: 95%;
+  }
+}
