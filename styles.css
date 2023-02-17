@@ -283,14 +283,6 @@ button:active {
   background: #2230d2;
 }
 
-.header-text {
-  max-width: 50%;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 52px;
-  color: #172b4d;
-}
-
 .para-text {
   margin: 12px 0;
 }
@@ -568,12 +560,8 @@ span {
     width: 95%;
   }
 }
-.project-section {
-  padding-right: 60px;
-  padding-left: 60px;
-}
 
-.project-card {
+.project-card .project-card:nth-of-type(2) .project-card:nth-of-type(3) .project-card:nth-of-type(4) {
   display: grid;
   padding: 10px;
   grid-template-columns: repeat(2, 1fr);
@@ -600,27 +588,6 @@ span {
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-}
-
-.language {
-  display: block;
-}
-
-.lang-text {
-  display: flex;
-}
-
-.lang-div {
-  display: flex;
-  flex-direction: row;
-  padding: 5px 15px;
-}
-
-.lang-list {
-  padding: 20px;
-  flex-direction: column;
-  width: 122px;
-  height: 120px;
 }
 
 .about {
