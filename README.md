@@ -1,16 +1,12 @@
-# Microverse_portfolio
-
 <a name="readme-top"></a>
-
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
+  - [Install](#install)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -18,92 +14,83 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 Portfolio-setup <a name="about-project"></a>
 
-# 📖  Portfolio-project <a name=" Portfolio-project">My Portfolio Project</a>
+> Portfolio website is one of the most important and first step that speak about you and your work. It's the only way to backtrack your previous experience and introduce yourself in a suitable and professional way.
 
 
-
-**Portfolio-project** This is my portfolio project. 
-Portfolio-project is a mobile and desktop responsive page.
-
-## 🛠 Built With HTML <a name="For Text"></a>
+## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-HTML5 and CSS which are the latest versions were used in building this project.
-
+> This project is built using HTML and CSS. 
 
 <details>
-  <summary>Client</summary>
+  <summary>HTML</summary>
   <ul>
-    <li><a href="https://reactjs.org/">JAVASCRIPT</a></li>
+    <li><a href="https://html.com/#What_is_HTML">index.html</a></li>
   </ul>
 </details>
 
-
-
+<details>
+  <summary>CSS</summary>
+  <ul>
+    <li><a href="https://html.com/css/#What_is_CSS">style.css</a></li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
 
-- **[key_feature_1]** Portfolio-project built with HTML and CSS.
-- **[key_feature_2]** Responsive mobile design portfolio.
+- **No linter errors**
+- **Use of correct GitHub flow**
+- **Documented in a professional way**
+- **Follow best practices for HTML and CSS**
+- **Header and Headline section**
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- **feature_HOME-PAGE**
+## 🚀 Live Demo <a name="live-demo"></a>
 
-## 🚀 Live Demo <a name="Live Demo"></a>
+- [Live Demo Link](#)
 
+- [Watch Presentation](#)
 
-)
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-Get your pc.
-Clone this project to your local machine.
-
 To get a local copy up and running, follow these steps.
 
-
-
 ### Prerequisites
-Basic knownledge of computer.
 
 In order to run this project you need:
-Live server.
+
+- **Visual Studio Code**
+- **Git Bash**
 
 ### Setup
 
 Clone this repository to your desired folder:
-
-  cd Microverse_portfolio
-  git clone https://github.com/adeola003/Microverse_portfolio.git
-```
-
-## 👥 Authors <a name="Abdel-Khafid SALAOU"></a>
-
-
-👤 **Abdel-Khafid**
-
-<a href="https://github.com/adeola003">- GitHub: [@githubhandle]</a>
-<a href="https://twitter.com/khadaf6">- Twitter: [@twitterhandle]</a>
-<a href="https://www.linkedin.com/in/abdel-khafid-salaou-a18396161/">- LinkedIn: [LinkedIn]</a>
-
+- **cd your-folder**
+- **git clone https://github.com/adeola003/Microverse_portfolio.git**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 👥 Authors <a name="authors"></a>
 
+ **Author 1** **Muhammad Usman Aslam**
+
+- GitHub: [@githubhandle](https://github.com/adeola003)
+- Twitter: [@twitterhandle](https://twitter.com/khadaf6)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdel-khafid-salaou-a18396161)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-
-- **About-page**
-
+- **Build a complete Portfolio website**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -113,28 +100,17 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ## ⭐️ Show your support <a name="support"></a>
 
-
-
-If you like this project you can follow my github or star it
+If you like this feel free to follow me on github and give this project a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-
-All my 
+I would like to thank my coding partners, mentors and Microverse for their support in building the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
