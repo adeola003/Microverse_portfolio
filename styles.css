@@ -124,6 +124,7 @@ li {
   line-height: 52px;
   color: #172b4d;
 }
+
 /* navigation bar styling */
 .nav-container {
   width: 100%;
@@ -152,7 +153,6 @@ li {
   text-decoration: none;
   font-size: 17px;
   align-items: baseline;
-
 }
 
 .topnav a:hover {
@@ -161,7 +161,6 @@ li {
 }
 
 .hamburger-lines {
-  display: block;
   height: 26px;
   width: 32px;
   position: absolute;
@@ -180,8 +179,6 @@ li {
   border-radius: 10px;
   background: #0e2431;
 }
-
-
 
 @media screen and (max-width: 768px) {
   .nav-container {
@@ -221,9 +218,5 @@ li {
 
   .section-head p {
     width: 95%;
-  }
-
-  .nav-container {
-    padding: 10px 40px;
   }
 }
