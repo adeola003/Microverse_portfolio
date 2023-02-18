@@ -1,86 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <meta 
-  name="Description"
-  content="First project creating the first two sections of my Portfolio">
+  <link rel="stylesheet" href="style.css">
   <title>Abdel-Khafid's Portfolio</title>
 </head>
+
 <body>
   <header>
     <div class="nav-container">
-        <div class="nav-logo">
-            <a href="https://github.com/adeola003/Microverse_portfolio/blob/fb72bf4cbe1a01de964565a522e47e907755bc67/assets/Abdel%20khafid%20SALAOU.png"><img class="my-lo" src="./assets/Abdel khafid SALAOU.png" alt="My_logo"></a>
-            <div class="overlay">Hello new friend</div>
-        </div>
-        <nav class="topnav">
-            <div class="hamburer-lines">
-                <span class="line1"></span>
-                <span class="line2"></span>
-                <span class="line3"></span>
-            </div>
-            <a href="#news">Portfolio</a>            
-            <a href="#news">About</a>
-            <a href="#contact">Contact</a>
-            <a href="#">-- <br> --</a>
+      <div class="nav-logo">
+        <a class="logo-style" href="#">My Logo</a>
+      </div>
+      <div class="desktop-tools">
+        <nav class="content">
+          <ul class="navnav-menu">
+            <li class="navnav-item">
+              <a href="#my_projects" class="link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#about" class="link">About</a>
+            </li>
+            <li>
+              <a href="#Contact" class="link">Contact</a>
+            </li>
+          </ul>
         </nav>
-     </div>
-        
-    </div>
-</header>
-<main>
-    <section class="first-section">
-        <div class="major-container">
-            <div class="minor-container">
-                <div class="section-head">
-                    <h1>I'm Abdel-Khafid SALAOU</h1>
-                    <p>
-                        I am a Software developer! I can help you build a product,
-                        feature or website. Look through some of my works and
-                        experience! if you like what you see and have a project you
-                        need coded don't hesitate to contact me.
-                    </p>
-                </div>
-                <div class="connect">
-                    <a href="#">LET'S CONNECT</a>
-                    <div class="list-nav">
-                        <ul class="list-items">
-                            <li>
-                                <a href="">
-                                    <img src="./assets\icons\Twitter icon.svg" alt="Twitter" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="./assets/icons/Linkedin icon.svg" alt="Linkedin" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="./assets/icons/Medium icon.svg" alt="Medium" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="./assets/icons/Github icon.svg" alt="Github" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href=""><img src="./assets/icons/Angelist icon.svg" alt="Angelist" />
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+
+        <div class="hamburger">
+          <span class="barbar"></span>
+          <span class="barbar"></span>
+          <span class="barbar"></span>
         </div>
-    </section>
-</main>
-</div>
-</div>
+      </div>
+    </div>
+  </header>
+
+  <section class="first-section">
+    <div class="major-container">
+      <div class="minor-container">
+        <div class="section-head">
+          <h1>I'm Abdel-Khafid Glad to see you</h1>
+          <p>
+            I am a Software developer! I can help you build a product,
+            feature or website. Look through some of my works and
+            experience! if you like what you see and have a project you
+            need coded don't hesitate to contact me.
+          </p>
+        </div>
+        <div class="self-container">
+          <a href="">Let's Connect</a>
+          <div class="list-nav">
+            <ul class="list-items">
+              <li>
+                <a href="">
+                  <img src="./assets/icons/Github icon.svg" alt="my social handle images" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./assets/icons/Linkedin icon.svg" alt="my social handle images" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./assets/icons/Twitter icon.svg" alt="my social handle images" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./assets/icons/Medium icon.svg" alt="my social handle images" />
+                </a>
+              </li>
+              <li>
+                <a href=""><img src="./assets/icons/Angelist icon.svg" alt="my social handle images" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="my_projects" class="project-container">
+    <div class="project-card">
+      <img src="./assets/Portoflio Card/tonic.svg" alt="project card image" />
+      <div class="prject-card-info flex column">
+        <h2 class="project-title">Tonic</h2>
+        <div class="project-meta flex">
+          <p class="bold">Canopy</p>
+          <div class="round"></div>
+          <p>Backend</p>
+          <div class="round"></div>
+          <p>2015</p>
+        </div>
+        <div class="project-note">
+          <p>
+            A daily selection of privately personalized reads; no accounts
+            or sign-ups required.
+          </p>
+        </div>
+        <div class="project-tag">
+          <ul class="project-skills flex">
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
+        </div>
+        <button class="see-project-btn" type="button">See Project</button>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="./assets/Portoflio Card/multi_post_series.svg" alt="project card image" />
+      <div class="prject-card-info flex column">
+        <h2 class="project-title">Multi-Post-Series</h2>
+        <div class="project-meta flex">
+          <p class="bold">Facebook</p>
+          <div class="round"></div>
+          <p>Full Stack Dev</p>
+          <div class="round"></div>
+          <p>2015</p>
+        </div>
+        <div class="project-note">
+          <p>
+            Experiemental content creation feature that allows users to add an existing story over the course of a day 
+            without spamming their fiends.
+          </p>
+        </div>
+        <div class="project-tag">
+          <ul class="project-skills flex">
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
+        </div>
+        <button class="see-project-btn" type="button">See Project</button>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="./assets/Portoflio Card/facebook.svg" alt="project card image" />
+      <div class="prject-card-info flex column">
+        <h2 class="project-title">Facebook 360</h2>
+        <div class="project-meta flex">
+          <p class="bold">Facebook</p>
+          <div class="round"></div>
+          <p>Full stack Dev</p>
+          <div class="round"></div>
+          <p>2015</p>
+        </div>
+        <div class="project-note">
+          <p>
+            Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and 
+            enjoy 360 photos and videos on Gear VR.
+          </p>
+        </div>
+        <div class="project-tag">
+          <ul class="project-skills flex">
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
+        </div>
+        <button class="see-project-btn" type="button">See Project</button>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="./assets/Portoflio Card/uber.svg" alt="project card image" />
+      <div class="prject-card-info flex column">
+        <h2 class="project-title">Uber Navigation</h2>
+        <div class="project-meta flex">
+          <p class="bold">Uber</p>
+          <div class="round"></div>
+          <p>Lead Developer</p>
+          <div class="round"></div>
+          <p>2018</p>
+        </div>
+        <div class="project-note">
+          <p>
+            A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
+          </p>
+        </div>
+        <div class="project-tag">
+          <ul class="project-skills flex">
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
+        </div>
+        <button class="see-project-btn" type="button">See Project</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-container flex column">
+      <div class="abt-me flex column">
+        <h2 class="header-text">About <br>Myself</h2>
+        <p class="para-text">
+          Hello I'm a software developer! I can help you build a product ,
+          feature or website Look through some of my work and experience! If
+          you like what you see and have a project you need coded, don't
+          hestiate to contact me.
+        </p>
+        <div class="self-container">
+          <a href="">LETS CONNECT</a>
+          <div class="list-nav">
+            <ul class="list-items skill-items">
+              <li>
+                <a href="">
+                  <img src="./assets/icons/Github icon.svg" alt="my social handle images" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./assets/icons/Linkedin icon.svg" alt="my social handle images" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./assets/icons/Twitter icon.svg" alt="my social handle images" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./assets/icons/Medium icon.svg" alt="my social handle images" />
+                </a>
+              </li>
+              <li>
+                <a href=""><img src="./assets/icons/Angelist icon.svg" alt="my social handle images" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button type="button">Get my Resume</button>
+      </div>
+      <div class="language flex column">
+        <ul>
+          <li>
+            <div class="lang flex column">
+              <p class="lang-text flex">
+                <span class="txt">My Languages</span><span class="lang-line">></span>
+              </p>
+              <ul class="lang-div flex column">
+                <li class="lang-list flex">
+                  <img src="./assets/icons/js.svg" alt="js logo" />
+                  <p class="skill-text">JavaScript</p>
+                </li>
+                <li class="lang-list flex">
+                  <img src="./assets/icons/html.svg" alt="html logo" />
+                  <p class="skill-text">HTML</p>
+                </li>
+                <li class="lang-list flex">
+                  <img src="./assets/icons/css.svg" alt="css logo" />
+                  <p class="skill-text">CSS</p>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="lang">
+              <p class="lang-text flex">
+                <span class="txt">Framework</span><span class="line">></span>
+              </p>
+            </div>
+          </li>
+          <div class="frame-line">
+            <hr />
+          </div>
+          <li>
+            <div class="lang">
+              <p class="lang-text flex">
+                <span class="txt">Skills</span><span class="line">></span>
+              </p>
+            </div>
+          </li>
+          <div class="frame-line">
+            <hr />
+          </div>
+        </ul>
+      </div>
+    </div>
+  </section>
+  </main>
 </body>
+
 </html>
