@@ -503,6 +503,12 @@ span {
   backdrop-filter: blur(8px);
 }
 
+.logo-style {
+text-decoration: none;
+color: #0018f5;
+
+}
+
 @media screen and (min-width: 768px) {
   .hamburger {
     display: none;
