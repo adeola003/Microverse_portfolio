@@ -52,7 +52,7 @@ section {
   display: flex;
   flex-direction: column;
   border-bottom-left-radius: 80px;
-  background-image: url("./assets/hero_bg\ \(1\).png");
+  background-image: url("./assets/icons/background.png");
   background-repeat: no-repeat;
   background-position: inherit;
   background-size: 100% 100%;
@@ -334,7 +334,7 @@ span {
 .project-tag {
   color: #6070ff;
 }
-
+/* 
 .contact-card {
   display: flex;
   flex-direction: column;
@@ -375,7 +375,7 @@ span {
   display: flex;
   flex-direction: column;
   padding: 20px;
-}
+} */
 
 .input {
   width: 100%;
@@ -504,9 +504,8 @@ span {
 }
 
 .logo-style {
-text-decoration: none;
-color: #0018f5;
-
+  text-decoration: none;
+  color: #0018f5;
 }
 
 @media screen and (min-width: 768px) {
