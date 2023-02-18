@@ -52,7 +52,7 @@ section {
   display: flex;
   flex-direction: column;
   border-bottom-left-radius: 80px;
-  background-image: url("./assets/icons/background.png");
+  background-image: url("./assets/hero_bg\ \(1\).png");
   background-repeat: no-repeat;
   background-position: inherit;
   background-size: 100% 100%;
@@ -335,7 +335,7 @@ span {
   color: #6070ff;
 }
 
-/* .contact-card {
+.contact-card {
   display: flex;
   flex-direction: column;
   background-image: url("./assets/contact\ form\ background\ shapes.png");
@@ -418,7 +418,7 @@ span {
   border-radius: 8px;
   background: #fff;
   margin-bottom: 30px;
-} */
+}
 
 .navnav-bar {
   min-height: 70px;
@@ -642,7 +642,7 @@ span {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  /* .contact-card {
+  .contact-card {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -680,4 +680,4 @@ span {
     width: 447px;
     border-radius: 0;
   }
-} */
+}
