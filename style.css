@@ -224,6 +224,7 @@ ul {
   gap: 8px;
   margin: 12px 0;
   justify-content: flex-start;
+
   /* display: flex; */
 }
 
@@ -335,6 +336,7 @@ span {
 .project-tag {
   color: #6070ff;
 }
+
 /* contact me section */
 
 .contact-me {
@@ -380,58 +382,61 @@ textarea {
   color: #172b4d;
   padding: 15px 38px 15px 16px;
   margin-bottom: 20px;
-
 }
+
 .intro {
-width: 100%;
-height: 56px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-display: flex;
-color: #FFFFFF;
-align-items: center;
-justify-content: center;
+  width: 100%;
+  height: 56px;
+  font-family: “Poppins”, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
 }
 
 .intro-contact {
-  font-family: 'Poppins';
+  font-family: “Poppins”, sans-serif;
   font-style: normal;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
   justify-content: center;
 }
+
 #Contact {
   display: flex;
   align-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
+
 #button {
-width: 150px;
-height: 40px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 25px;
-line-height: 24px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
-color: #6070FF;
-flex: none;
-order: 0;
-flex-grow: 0;
-transition-duration: 0.4s;
+  width: 150px;
+  height: 40px;
+  font-family: “Poppins”, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  transition-duration: 0.4s;
 }
 
 #button:hover {
-  background-color: #6070FF;
+  background-color: #6070ff;
   color: white;
 }
+
 /* Navbar_styling */
 .navnav-bar {
   min-height: 70px;
