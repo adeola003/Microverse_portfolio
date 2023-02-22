@@ -292,21 +292,21 @@
   <section id="Contact" class="contact-me">
     <h2 class="intro">Contact me</h2>
     <p class="intro-contact">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it. </p>
-    <form action="contact me form page" method="post">
+    <form action="https://formspree.io/f/mlekbpkb" method="POST">
       <ul>
         <li>
           <label for="name">
-            <input class="input" type="text" value="Abdel-Khafid SALAOU" id="name" name="user_name" />
+            <input class="input" type="text" maxlength="30" placeholder="Abdel-Khafid SALAOU" id="name" name="user_name"  required/>
           </label>
         </li>
         <li>
           <label for="mail">
-            <input class="input" type="email" value="khadaf3@gmail.com" id="mail" name="user_email"/>
+            <input class="input" type="email"  placeholder="khadaf3@gmail.com" id="mail" name="user_email" required/>
           </label>
         </li>
         <li>
           <label for="msg">
-            <textarea id="msg" name="user_message">Write your message</textarea>
+            <textarea id="msg" name="user_message" maxlength="500" required placeholder="Write your message"></textarea>
           </label>
         </li>
         <li>
