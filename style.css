@@ -351,6 +351,7 @@ span {
   justify-content: center;
   border-top-left-radius: 80px;
 }
+
 .form-class {
   display: flex;
   flex-direction: column;
@@ -421,6 +422,7 @@ textarea {
   display: flex;
   justify-content: center;
 }
+
 #button {
   width: 50%;
   background: #fff;
