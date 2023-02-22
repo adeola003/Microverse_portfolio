@@ -351,6 +351,10 @@ span {
   justify-content: center;
   border-top-left-radius: 80px;
 }
+.form-class {
+  display: flex;
+  flex-direction: column;
+}
 
 .input {
   width: 447px;
@@ -413,28 +417,34 @@ textarea {
   flex-wrap: wrap;
 }
 
+.submit {
+  display: flex;
+  justify-content: center;
+}
 #button {
-  width: 150px;
-  height: 40px;
-  font-family: “Poppins”, sans-serif;
+  width: 50%;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 17px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
   color: #6070ff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  transition-duration: 0.4s;
+  padding: 10px 15px;
 }
 
 #button:hover {
   background-color: #6070ff;
   color: white;
+  border-radius: 8px;
+}
+
+#button:active {
+  background-color: #2230d2;
+  color: white;
+  border-radius: 8px;
 }
 
 /* Navbar_styling */
