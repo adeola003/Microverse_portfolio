@@ -224,8 +224,6 @@ ul {
   gap: 8px;
   margin: 12px 0;
   justify-content: flex-start;
-
-  /* display: flex; */
 }
 
 .project-skills li {
@@ -543,6 +541,10 @@ textarea {
     display: none;
   }
 
+  .first-section {
+    background-image: url("./assets/icons/Header\ bg.svg");
+  }
+
   .desk-menu {
     display: flex;
     justify-content: space-between;
@@ -627,10 +629,12 @@ textarea {
 
   .prject-card-info {
     padding: 20px;
+    display: flex;
   }
 
-  .order-2 {
-    order: 2;
+  .see-project-btn {
+    justify-content: flex-start;
+    margin-left: 20px;
   }
 
   .about-container {
@@ -663,4 +667,7 @@ textarea {
     padding-left: 60px;
     padding-right: 50px;
   }
+
 }
+
+
