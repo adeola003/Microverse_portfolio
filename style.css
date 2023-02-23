@@ -5,6 +5,9 @@
   max-width: 100%;
 }
 
+.con {
+  color: #7F8CFF;
+}
 body {
   max-width: 100%;
   min-height: 100vh;
@@ -17,11 +20,6 @@ body {
 
 header {
   background-color: #fff;
-}
-
-.amburger {
-  display: flex;
-  flex-direction: column;
 }
 
 .bar {
@@ -542,7 +540,12 @@ textarea {
   }
 
   .first-section {
-    background-image: url("./assets/icons/Header\ bg.svg");
+    background-image: url("./assets/icons/background.png");
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: 100% 100%;
+    padding-top: 70px;
+    justify-content: center;
   }
 
   .desk-menu {
@@ -552,12 +555,10 @@ textarea {
   }
 
   .desktop-tools {
-    display: inline;
+    display: inline-flex;
   }
 
-  .navnav-menu {
-    display: none;
-  }
+
 
   .navnav-item {
     margin: 16px 0;
@@ -646,6 +647,11 @@ textarea {
     display: block;
   }
 
+  .lang {
+    display: flex;
+    flex-direction: column;
+  }
+
   .lang-text {
     display: flex;
   }
@@ -654,6 +660,7 @@ textarea {
     display: flex;
     flex-direction: row;
     padding: 5px 15px;
+    flex-wrap: wrap;
   }
 
   .lang-list {
@@ -661,6 +668,7 @@ textarea {
     flex-direction: column;
     width: 122px;
     height: 120px;
+    flex-grow: 0;
   }
 
   .about {
