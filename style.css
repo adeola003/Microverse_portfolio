@@ -6,8 +6,9 @@
 }
 
 .con {
-  color: #7F8CFF;
+  color: #7f8cff;
 }
+
 body {
   max-width: 100%;
   min-height: 100vh;
@@ -493,6 +494,7 @@ textarea {
     flex-direction: row;
     justify-content: flex-end;
   }
+
   .hamburger {
     display: none;
   }
@@ -510,8 +512,6 @@ textarea {
     display: flex;
     flex-direction: row-reverse;
   }
-
-
 
   .navnav-item {
     margin: 16px 0;
@@ -639,13 +639,8 @@ textarea {
     display: flex;
     gap: 10px;
   }
-  
-  .list-items img {
-    height: 15px;
-    width: 15px;
-  }
-  
-  .list-items li {
+
+   .list-items li {
     list-style: none;
   }
 }
