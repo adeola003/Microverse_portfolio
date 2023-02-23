@@ -97,20 +97,6 @@ h2 {
   gap: 10px;
 }
 
-.self-container p {
-  text-decoration: none;
-  text-transform: uppercase;
-  display: block;
-  font-family: “Poppins”, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #142cff;
-  height: 24px;
-  flex: none;
-}
-
 li {
   list-style: none;
   text-decoration: #dfe1e6;
@@ -458,14 +444,6 @@ textarea {
   font-size: 2rem;
 }
 
-.navnav-link {
-  transform: 0.7s ease;
-}
-
-.navnav-link:hover {
-  color: #142cff;
-}
-
 .barbar {
   display: block;
   width: 25px;
@@ -496,37 +474,8 @@ textarea {
   margin: 10px 0;
 }
 
-.navnav-menu ul {
-  height: 69;
-}
-
 .navnav-menu {
   display: none;
-}
-
-.desk-menu {
-  display: none;
-}
-
-.navnav-menu.active {
-  display: block;
-  position: fixed;
-  left: 0;
-  top: -1%;
-  flex-direction: column;
-  background: #6070e0;
-  width: 100%;
-  transition: 0.3s;
-  height: 100%;
-  padding: 50px;
-  align-items: center;
-  margin: 0;
-  align-self: auto;
-  padding-top: 10%;
-  line-height: 65px;
-  text-align: start;
-  mix-blend-mode: multiply;
-  backdrop-filter: blur(8px);
 }
 
 .logo-style {
@@ -535,6 +484,15 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
+  .content {
+    display: flex;
+  }
+
+  .navnav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
   .hamburger {
     display: none;
   }
@@ -548,14 +506,9 @@ textarea {
     justify-content: center;
   }
 
-  .desk-menu {
-    display: flex;
-    justify-content: space-between;
-    gap: 0;
-  }
-
   .desktop-tools {
-    display: inline-flex;
+    display: flex;
+    flex-direction: row-reverse;
   }
 
 
@@ -567,6 +520,12 @@ textarea {
   .navnav-menu.active {
     left: -100%;
     margin: 16px 0;
+  }
+
+  .self-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 
   .major-container {
@@ -674,5 +633,19 @@ textarea {
   .about {
     padding-left: 60px;
     padding-right: 50px;
+  }
+
+  .list-items {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .list-items img {
+    height: 15px;
+    width: 15px;
+  }
+  
+  .list-items li {
+    list-style: none;
   }
 }
