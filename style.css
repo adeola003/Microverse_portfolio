@@ -5,10 +5,14 @@
   max-width: 100%;
 }
 
+.con {
+  color: #7f8cff;
+}
+
 body {
   max-width: 100%;
   min-height: 100vh;
-  background-color: #e5e5e5;
+  background: #e5e5e5;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -17,11 +21,6 @@ body {
 
 header {
   background-color: #fff;
-}
-
-.amburger {
-  display: flex;
-  flex-direction: column;
 }
 
 .bar {
@@ -43,9 +42,7 @@ header {
 }
 
 section {
-  padding: 5rem 1.25rem 6rem;
-  background-color: #fff;
-  margin-bottom: 20%;
+  padding: 0.5rem 1.25rem 1rem;
 }
 
 .major-container {
@@ -70,6 +67,8 @@ section {
 
 #about {
   border-top-right-radius: 80px;
+  margin-top: 5%;
+  background: #fff;
 }
 
 .section-head p {
@@ -97,20 +96,6 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 10px;
-}
-
-.self-container p {
-  text-decoration: none;
-  text-transform: uppercase;
-  display: block;
-  font-family: “Poppins”, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #142cff;
-  height: 24px;
-  flex: none;
 }
 
 li {
@@ -157,6 +142,7 @@ a {
 
 .first-section {
   border-bottom-left-radius: 80px;
+  background: #fff;
 }
 
 .project-section {
@@ -171,7 +157,9 @@ a {
   border-radius: 16px;
   padding: 16px;
   background-color: #fff;
-  margin: 17px;
+  margin: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .project-container {
@@ -224,8 +212,6 @@ ul {
   gap: 8px;
   margin: 12px 0;
   justify-content: flex-start;
-
-  /* display: flex; */
 }
 
 .project-skills li {
@@ -347,9 +333,10 @@ span {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: inherit;
-  padding-top: 50px;
   justify-content: center;
   border-top-left-radius: 80px;
+  size: 100%;
+  margin-top: 0%;
 }
 
 .form-class {
@@ -416,6 +403,8 @@ textarea {
   align-content: center;
   align-items: center;
   flex-wrap: wrap;
+  height: 100%;
+  margin-bottom: 0%;
 }
 
 .submit {
@@ -462,14 +451,6 @@ textarea {
   font-size: 2rem;
 }
 
-.navnav-link {
-  transform: 0.7s ease;
-}
-
-.navnav-link:hover {
-  color: #142cff;
-}
-
 .barbar {
   display: block;
   width: 25px;
@@ -500,37 +481,8 @@ textarea {
   margin: 10px 0;
 }
 
-.navnav-menu ul {
-  height: 69;
-}
-
 .navnav-menu {
   display: none;
-}
-
-.desk-menu {
-  display: none;
-}
-
-.navnav-menu.active {
-  display: block;
-  position: fixed;
-  left: 0;
-  top: -1%;
-  flex-direction: column;
-  background: #6070e0;
-  width: 100%;
-  transition: 0.3s;
-  height: 100%;
-  padding: 50px;
-  align-items: center;
-  margin: 0;
-  align-self: auto;
-  padding-top: 10%;
-  line-height: 65px;
-  text-align: start;
-  mix-blend-mode: multiply;
-  backdrop-filter: blur(8px);
 }
 
 .logo-style {
@@ -538,23 +490,37 @@ textarea {
   color: #0018f5;
 }
 
+main {
+  background: #f4f5f7;
+}
+
 @media screen and (min-width: 768px) {
+  .content {
+    display: flex;
+  }
+
+  .navnav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
   .hamburger {
     display: none;
   }
 
-  .desk-menu {
-    display: flex;
-    justify-content: space-between;
-    gap: 0;
+  .first-section {
+    background-image: url("./assets/icons/background.png");
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: 100% 100%;
+    padding-top: 70px;
+    justify-content: center;
   }
 
   .desktop-tools {
-    display: inline;
-  }
-
-  .navnav-menu {
-    display: none;
+    display: flex;
+    flex-direction: row-reverse;
   }
 
   .navnav-item {
@@ -564,6 +530,12 @@ textarea {
   .navnav-menu.active {
     left: -100%;
     margin: 16px 0;
+  }
+
+  .self-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 
   .major-container {
@@ -627,10 +599,12 @@ textarea {
 
   .prject-card-info {
     padding: 20px;
+    display: flex;
   }
 
-  .order-2 {
-    order: 2;
+  .see-project-btn {
+    justify-content: flex-start;
+    margin-left: 20px;
   }
 
   .about-container {
@@ -642,6 +616,11 @@ textarea {
     display: block;
   }
 
+  .lang {
+    display: flex;
+    flex-direction: column;
+  }
+
   .lang-text {
     display: flex;
   }
@@ -650,6 +629,7 @@ textarea {
     display: flex;
     flex-direction: row;
     padding: 5px 15px;
+    flex-wrap: wrap;
   }
 
   .lang-list {
@@ -657,10 +637,24 @@ textarea {
     flex-direction: column;
     width: 122px;
     height: 120px;
+    flex-grow: 0;
   }
 
   .about {
     padding-left: 60px;
     padding-right: 50px;
+  }
+
+  .list-items {
+    display: flex;
+    gap: 10px;
+  }
+
+  .list-items li {
+    list-style: none;
+  }
+
+  .contact-me {
+    height: 100%;
   }
 }
