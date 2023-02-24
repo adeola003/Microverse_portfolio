@@ -13,6 +13,7 @@ body {
   max-width: 100%;
   min-height: 100vh;
   background-color: #e5e5e5;
+  background: #e5e5e5;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -43,7 +44,6 @@ header {
 
 section {
   padding: 0.5rem 1.25rem 1rem;
-  background-color: #fff;
 }
 
 .major-container {
@@ -69,6 +69,7 @@ section {
 #about {
   border-top-right-radius: 80px;
   margin-top: 5%;
+  background: #fff;
 }
 
 .section-head p {
@@ -142,6 +143,7 @@ a {
 
 .first-section {
   border-bottom-left-radius: 80px;
+  background: #fff;
 }
 
 .project-section {
@@ -156,7 +158,9 @@ a {
   border-radius: 16px;
   padding: 16px;
   background-color: #fff;
-  margin: 17px;
+  margin: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .project-container {
@@ -486,6 +490,11 @@ textarea {
   text-decoration: none;
   color: #0018f5;
 }
+
+main {
+  background: #F4F5F7;
+}
+
 
 @media screen and (min-width: 768px) {
   .content {
