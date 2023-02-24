@@ -42,9 +42,8 @@ header {
 }
 
 section {
-  padding: 5rem 1.25rem 6rem;
+  padding: 0.5rem 1.25rem 1rem;
   background-color: #fff;
-  margin-bottom: 20%;
 }
 
 .major-container {
@@ -69,6 +68,7 @@ section {
 
 #about {
   border-top-right-radius: 80px;
+  margin-top: 5%;
 }
 
 .section-head p {
@@ -330,10 +330,10 @@ span {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: inherit;
-  padding-top: 50px;
   justify-content: center;
   border-top-left-radius: 80px;
   size: 100%;
+  margin-top: 0%;
 }
 
 .form-class {
@@ -400,7 +400,8 @@ textarea {
   align-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: fit-content;
+  height: 100%;
+  margin-bottom: 0%;
 }
 
 .submit {
@@ -644,5 +645,10 @@ textarea {
 
   .list-items li {
     list-style: none;
+  }
+
+  .contact-me {
+    height: 100%;
+
   }
 }
