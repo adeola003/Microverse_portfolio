@@ -538,6 +538,12 @@ textarea {
   color: #0018f5;
 }
 
+.see-project-btn:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
 @media screen and (min-width: 768px) {
   .hamburger {
     display: none;
