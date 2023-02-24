@@ -333,6 +333,7 @@ span {
   padding-top: 50px;
   justify-content: center;
   border-top-left-radius: 80px;
+  size: 100%;
 }
 
 .form-class {
@@ -399,6 +400,7 @@ textarea {
   align-content: center;
   align-items: center;
   flex-wrap: wrap;
+  height: fit-content;
 }
 
 .submit {
